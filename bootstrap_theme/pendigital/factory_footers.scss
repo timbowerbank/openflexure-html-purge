@@ -1,0 +1,346 @@
+// start pd-footer-1
+.pd-footer-1 {
+    background: linear-gradient(180deg, $primary, darken($primary, 10%));
+    color: $white;
+    border-bottom: 1px solid darken($primary, 30%);
+
+    h2 {
+        font-weight: 700;
+        font-size: 1rem;
+        color: $white;
+        text-transform: uppercase;
+        padding-bottom: 16px;
+        border-bottom: 1px solid $white;
+    }
+
+    .btn.btn-info {
+        color: $white;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+        display: inline-block;
+
+        &:focus {
+            outline: 2px dotted $white;
+            outline-offset: 2px;
+        }
+    }
+
+    a.pd-footer-1-tel {
+        font-weight: 700;
+        font-size: 1rem;
+
+        @media (min-width: 321px) and (max-width: 767px) {
+            font-size: 1.6rem;
+        }
+
+        @media (max-width: 320px) {
+            font-size: 1rem;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 0.8rem;
+
+        li {
+            padding-top: 4px;
+            padding-bottom: 4px;
+        }
+    }
+
+    .pd-footer-1-social-icon {
+        transition: transform 0.4s;
+        display: inline-block;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        img {
+            width: 36px;
+            height: 36px;
+        }
+
+        @media (min-width: 321px) and (max-width: 767px) {
+            img {
+                width: 52px;
+                height: 52px;
+                margin-right: 10px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            img {
+                width: 42px;
+                height: 42px;
+            }
+        }
+
+        &:first-child {
+            @media (max-width: 575px) {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.pd-footer-1-endBlock {
+    background: darken($primary, 20%);
+
+    p {
+        margin-bottom: 0px;
+        color: $white;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 700!important;
+        color: $white;
+        font-size: 0.8rem;
+
+        &:focus {
+            outline: 2px dotted $white;
+            outline-offset: 2px;
+        }
+    }
+}
+
+// end pd-footer-1
+// start pd-footer-2
+.pd-footer-2 {
+    background: linear-gradient(#f7f7f7 0%, #f9f9f9 20%, #f9f9f9 90%, #f7f7f7 100%);
+    color: $gray-600;
+    border-bottom: 1px solid $gray-300;
+
+    h2 {
+        font-weight: 700;
+        font-size: 1rem;
+        color: $primary;
+        text-transform: uppercase;
+        padding-bottom: 16px;
+        border-bottom: 1px solid $primary;
+    }
+
+    .btn.btn-info {
+        color: $white;
+    }
+
+    a {
+        color: $gray-600;
+        text-decoration: none;
+        display: inline-block;
+
+        &:focus {
+            outline: 2px dotted $primary;
+            outline-offset: 2px;
+        }
+    }
+
+    a.pd-footer-2-tel {
+        font-weight: 700;
+        font-size: 1rem;
+
+        @media (min-width: 321px) and (max-width: 767px) {
+            font-size: 1.6rem;
+        }
+
+        @media (max-width: 320px) {
+            font-size: 1rem;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 0.8rem;
+
+        li {
+            padding-top: 4px;
+            padding-bottom: 4px;
+        }
+    }
+
+    .pd-footer-2-social-icon {
+        transition: transform 0.4s;
+        display: inline-block;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        img {
+            width: 36px;
+            height: 36px;
+        }
+
+        @media (min-width: 321px) and (max-width: 767px) {
+            img {
+                width: 52px;
+                height: 52px;
+                margin-right: 10px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            img {
+                width: 42px;
+                height: 42px;
+            }
+        }
+
+        &:first-child {
+            @media (max-width: 575px) {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.pd-footer-2-endBlock {
+    // background: darken($primary, 20%);
+    background: $primary;
+
+    p {
+        margin-bottom: 0px;
+        color: $white;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 700!important;
+        color: $white;
+        font-size: 0.8rem;
+
+        &:focus {
+            outline: 2px dotted $white;
+            outline-offset: 2px;
+        }
+    }
+}
+
+// end pd-footer-2
+// start pd-footer-3
+
+.pd-footer-3 {
+
+    background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 60%, rgba(0,0,0,1) 100%);
+
+    h3 {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    p {
+        margin-bottom: 3px;
+        font-size: 0.9rem;
+    }
+
+    // this is an anchor
+    .pd-icon-card-link {
+        text-decoration: none;
+        img {
+            margin-right: 6px;
+        }
+
+        span {
+            
+            color: $white;
+            font-weight: 700;
+        }
+
+    }
+
+    .pd-footer-link {
+        text-decoration: none;
+        color: $white;
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+    }
+
+    .pd-divider {
+        background-color: $gray-700;
+        height: 2px;
+        width: 100%;
+    }
+
+    .pd-accred-row {
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+
+    .pd-accred-logo {
+        @media screen and (max-width: 767px) {
+            width: auto;
+            height: 60px;
+        }
+
+        @media (min-width: 768px) {
+            width: auto;
+            height: 50px;
+        }
+    }
+
+    .pd-social-logo {
+
+        @media screen and (max-width: 767px) {
+            margin-right: 14px;
+            img {
+                width: auto;
+                height: 60px;
+
+            }
+
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            margin-right: 14px;
+            img {
+                width: auto;
+                height: 40px;  
+
+            }
+        }
+    }
+
+    .pd-review-card {
+        text-decoration: none;
+
+        .pd-rating {
+            
+            
+            span {
+                
+                color: $white;
+            }
+            img {
+                margin-bottom: 4px;
+                margin-right: 2px;
+            }
+
+        }
+    }
+
+}
