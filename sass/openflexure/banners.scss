@@ -1,0 +1,150 @@
+// start pd-CTA-8
+.pd-CTA-8 {
+    position: relative;
+
+    .pd-intro-heading-sm {
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 0px;
+    }
+
+    .pd-headline {
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: white;
+    }
+
+    .pd-subHeadline {
+        color: white;
+        line-height: 1.5;
+    }
+
+    .pd-icon {
+        fill: white;
+        margin-right: 6px;
+    }
+
+    // .pd-btn {
+    //     border: 2px solid white;
+    //     background: transparent;
+    //     transition: background 0.3s;
+    //     border-radius: 50em;
+    //     padding: 16px 30px;
+    //     margin-right: 20px;
+    //     margin-bottom: 30px;
+    //     text-decoration: none;
+    //     color: white;
+    //     display: inline-block;
+    //     font-weight: 700;
+    //     min-width: $pd-btn-min-width;
+    //     text-align: center;
+
+    //     .pd-icon {
+    //         width: 40px;
+    //         height: 40px;
+    //         margin-right: 6px;
+    //         fill: white;
+    //     }
+
+    //     &:hover {
+    //         background: #c5247f;
+    //         color: $white;
+
+    //         .pd-icon {
+    //             fill: $white;
+    //         }
+    //     }
+    // }
+
+    .pd-CTA-8-summary {
+        display: inline-block;
+        border: 2px solid #e7e7e7;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+
+        p {
+            margin-bottom: 8px;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+
+        color: white;
+        font-weight: 300;
+
+        strong {
+            font-weight: 700;
+        }
+    }
+
+    .pd-CTA-8-main-img-outer {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        min-height: 300px;
+        overflow: hidden;
+
+        @media (min-width: 577px) and (max-width: 991px) {
+            min-height: 500px;
+            margin-top: 20px;
+        }
+
+        .pd-CTA-8-main-img-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0.3) 100%);
+        }
+        
+
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+
+            
+        }
+    }
+
+    .pd-CTA-8-logos-outer {
+        p {
+            color: white;
+        }
+
+        .pd-CTA-8-grid {
+            border: 2px solid white;
+            border-radius: 10px;
+            background: rgba(255,255,255,0.9);
+            padding: 20px;
+
+            display: grid;
+            gap: 20px;
+            
+            @media screen and (max-width: 991px) {
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            @media (min-width: 992px) {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                
+            }
+
+            .pd-CTA-8-grid-card {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 100%;
+                    height: auto;
+                    max-width: 90px;
+                }
+            }
+        }
+    }
+}

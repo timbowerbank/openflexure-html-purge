@@ -1,9 +1,3 @@
-$spacer: 1.5rem;
-$light: #E7E7E7;
-$dark: #2A2A2A;
-$info: #C5247F;
-$pd-btn-min-width: 260px;
-
 @font-face {
     font-family: 'OpenSans';
     font-style: normal;
@@ -41,10 +35,14 @@ $pd-btn-min-width: 260px;
 }
 
 $font-family-sans-serif: 'OpenSans', sans-serif;
+$spacer: 1.5rem;
+$light: #E7E7E7;
+$dark: #2A2A2A;
+$info: #C5247F;
+$pd-btn-min-width: 260px;
 
 @import "bootstrap/bootstrap";
 
-// Import optimized openflexure sass (only components actually used)
 @import "openflexure/utils";
 @import "openflexure/navigation";
 @import "openflexure/heroes";
@@ -56,7 +54,8 @@ $font-family-sans-serif: 'OpenSans', sans-serif;
 @import "openflexure/sliders";
 @import "openflexure/footer";
 @import "openflexure/modals";
+@import "openflexure/text";
+@import "openflexure/banners";
 
 @import "hamburgers/hamburgers";
 
-/* Custom CSS rules come here */
