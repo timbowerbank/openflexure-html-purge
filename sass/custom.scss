@@ -1,45 +1,8 @@
-/* Bootstrap theme customized with Pinegrow Web Editor */
-/* Vars go before the @import */
-/* Click on the Uncomment icon in the Style panel to uncomment and customize the variables: */
-// $primary: #007bff;
-// $secondary: #6c757d;
-// $success: #28a745;
-// $info: #17a2b8;
-// $warning: #ffc107;
-// $danger: #dc3545;
-// $light: #f8f9fa;
-// $dark: #343a40;
-// $body-bg: #ffffff;
-// $body-color: #212529;
-/* Import web fonts - Must come before any CSS rules. Refresh the Page view after making changes to import statements. */
-// @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Playfair+Display:wght@400;700;900&display=swap');
-// $font-family-sans-serif: 'Lato', sans-serif;
-// $headings-font-family: 'Playfair Display', serif;
 $spacer: 1.5rem;
-
-// $primary: #433a6c; Fort Marketing
-// $primary: #007aff; old scissors blue
-// $primary: #493bb3; Or is this old scissors blue?
-$primary: #17A9E6;
-$primary-darker: #433a6c;
-
-// $secondary: #3fa9f5;
-$secondary: #493bb3;
-
-// $info: #b53027;
-$info: #c5247f;
-$pd-oxford-blue: #00182E;
-$pd-bone: #E0DDCF;
-$pd-isaballine: #F1F0EA;
-
-// original
-$pd-ochre: #D17A22;
-
+$light: #E7E7E7;
+$dark: #2A2A2A;
+$info: #C5247F;
 $pd-btn-min-width: 260px;
-
-// @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
 @font-face {
     font-family: 'OpenSans';
@@ -77,63 +40,23 @@ $pd-btn-min-width: 260px;
           url('/fonts/OpenSans-Bold-subset.woff') format('woff');
 }
 
-// $font-family-sans-serif: 'Raleway', sans-serif;
 $font-family-sans-serif: 'OpenSans', sans-serif;
 
 @import "bootstrap/bootstrap";
 
-// import openflexure sass
-@import "openflexure/factory_topBar";
-@import "openflexure/factory_mainNavs";
-@import "openflexure/factory_hamburgers";
-@import "openflexure/factory_heroes";
-@import "openflexure/factory_heroesHalf";
-@import "openflexure/factory_testimonials";
-@import "openflexure/factory_cards";
-@import "openflexure/factory_sections";
-@import "openflexure/factory_footers";
-@import "openflexure/factory_testimonial_sliders";
-@import "openflexure/factory_logo_strips";
-@import "openflexure/factory_heroVideos";
-@import "openflexure/factory_mission_statements";
-@import "openflexure/factory_ribbons";
-@import "openflexure/factory_people";
-@import "openflexure/factory_specials_multiBox";
-@import "openflexure/factory_specials_carouselSteps";
-@import "openflexure/factory_specials_stats";
-@import "openflexure/factory_lists";
-@import "openflexure/factory_call_to_actions";
-@import "openflexure/factory_cards_posts";
-@import "openflexure/factory_headlines";
-@import "openflexure/factory_social_media_share";
-@import "openflexure/factory_blog_post";
-@import "openflexure/factory_forms";
-@import "openflexure/factory_text";
-@import "openflexure/factory_grid";
-@import "openflexure/factory_widgets";
-@import "openflexure/factory_page_menus";
-@import "openflexure/factory_carousels";
-@import "openflexure/factory_pricing";
-@import "openflexure/factory_faqs";
-@import "openflexure/factory_breadcrumbs";
-@import "openflexure/factory_admin_page_menus";
-@import "openflexure/factory_admin_page_menus_2";
-@import "openflexure/factory_admin_page_menus_3";
-@import "openflexure/factory_admin_logins";
-@import "openflexure/factory_admin_tables";
-@import "openflexure/factory_admin_cards";
-@import "openflexure/factory_admin_forms";
-@import "openflexure/factory_admin_dashboard";
-@import "openflexure/factory_tabs";
-@import "openflexure/factory_modals";
-@import "openflexure/factory_search";
-@import "openflexure/factory_galleries";
-@import "openflexure/factory_sliders";
-@import "openflexure/factory_mega_menu_nav";
-
-
+// Import optimized openflexure sass (only components actually used)
+@import "openflexure/utils";
+@import "openflexure/navigation";
+@import "openflexure/heroes";
+@import "openflexure/cards";
+@import "openflexure/grid";
+@import "openflexure/galleries";
+@import "openflexure/sections";
+@import "openflexure/logo-strips";
+@import "openflexure/sliders";
+@import "openflexure/footer";
+@import "openflexure/modals";
 
 @import "hamburgers/hamburgers";
-@import "openflexure/utils";
 
 /* Custom CSS rules come here */

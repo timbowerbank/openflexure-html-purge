@@ -1,0 +1,67 @@
+<section class="d-flex flex-column justify-content-center pb-5 pd-hero-16 pt-5">
+    <script>
+        function imageLoadedListener16(e) {
+            const heroImage16 = document.querySelector(".pd-hero-16-img");
+            heroImage16.classList.add("pd-hero-16-img-loaded");
+        }
+    </script>
+    <figure>
+        <picture>
+            <source srcset="/images/uploads/hero-cells-1_result.webp 1800w, 
+                        /images/uploads/hero-cells-1-mob_result.webp 820w" sizes="(max-width: 600px) 100vw, 1800px" type="image/webp"/>
+            <img srcset="/images/uploads/hero-cells-1.jpg 1800w,
+                    /images/uploads/hero-cells-1-mob.jpg 820w" sizes="(max-width: 600px) 100vw, 1800px" src="/images/uploads/hero-cells-1.jpg" class="pd-hero-16-img" onload="imageLoadedListener16()" loading="lazy" alt="human cells" width="1425" height="1291"/>
+        </picture>
+        <figcaption>
+            <div class="d-block d-lg-none">[ <em>Image: </em>Description of image, <em>Source: </em>OpenFlexure Microscope]
+            </div>
+            <div class="d-lg-block d-none">[ <em>Image: </em>Description of image, <em>Source: </em>OpenFlexure Microscope,&nbsp;<em>Magnification: </em>40x,&nbsp;<em>Lighting: </em>Brightfield Illumination]
+            </div>
+        </figcaption>                 
+    </figure>
+    <div class="pd-hero-16-overlay"></div>
+    <div style="position: relative;" class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-row justify-content-center">
+                <div class="pd-hero-16-content-outer">
+                    <div class="pd-hero-16-content-img-outer">
+                        <picture>
+                            <source srcset="/images/uploads/microscope_v7_result.webp" type="image/webp">
+                            <img src="images/uploads/microscope_v7_result.jpg" alt="image of microscope" width="200" height="289" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="pd-hero-16-content-text-outer">
+                        <header>
+                            <img src="images/design-assets/logo_openflexure_emblem.svg" alt="open flexure logo" width="80" height="50" class="mb-3 pd-icon">
+                            <h1 class="pd-intro-heading-sm">3D Printed Digital Microscopes</h1>
+                            <p class="mb-2 pd-headline">Microscopy For Everyone</p>
+                        </header>
+                        <div class="mb-4">
+                            <p class="pd-subHeadline">The OpenFlexure project is an open-source initiative focused on development of 3D printed, laboratory-grade digital microscopes and positioning stages, making high-quality microscopy accessible to all.</p>
+                        </div>
+                        <footer>
+                            <a href="#" data-video-id="InmLDDsRmb4" class="pd-btn pd-btn-dark pd-btn-default-width pd-watch-youtube-video">
+                                <span class="pd-icon">
+                                    <img src="images/design-assets/_openflexure/play_circle_24dp_FFFFFF_FILL0_wght300_GRAD0_opsz24.svg" alt="search icon" width="40" height="40" loading="lazy">
+                                </span>
+                                <span class="pd-icon pd-icon-rollover">
+                                    <img src="images/design-assets/_openflexure/play_circle_24dp_FFFFFF_FILL0_wght300_GRAD0_opsz24.svg" alt="search icon" width="40" height="40" loading="lazy">
+                                </span>
+                                Watch Video
+                            </a>
+                            <a href="#exploreFeatures" class="pd-btn pd-btn-dark pd-btn-default-width">
+                                <span class="pd-icon">
+                                    <img src="images/design-assets/_openflexure/search_24dp_FFFFFF_FILL0_wght300_GRAD0_opsz24.svg" alt="search icon" width="40" height="40" loading="lazy">
+                                </span>
+                                <span class="pd-icon pd-icon-rollover">
+                                    <img src="images/design-assets/_openflexure/search_24dp_FFFFFF_FILL0_wght300_GRAD0_opsz24.svg" alt="search icon" width="40" height="40" loading="lazy">
+                                </span>
+                                Explore Features
+                            </a>
+                        </footer>
+                    </div>
+                </div>                         
+            </div>
+        </div>
+    </div>
+</section>
