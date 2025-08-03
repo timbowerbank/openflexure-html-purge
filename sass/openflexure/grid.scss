@@ -6,23 +6,23 @@
     .pd-intro-heading-sm {
         font-size: 0.9rem;
         font-weight: 700;
-        color: #c5247f;
+        color: $info;
         margin-bottom: 0px;
     }
 
     .pd-headline {
         font-size: 2.4rem;
         font-weight: 700;
-        color: #2a2a2a;
+        color: $dark;
     }
 
     .pd-subHeadline {
-        color: #2a2a2a;
+        color: $dark;
         line-height: 1.5;
     }
 
     .pd-icon {
-        fill: #c5247f;
+        fill: $info;
         margin-right: 6px;
     }
 
@@ -63,7 +63,7 @@
                 flex-direction: column;
                 align-items: flex-start;
                 justify-content: flex-start;
-                border: 1px solid #e7e7e7;
+                border: 1px solid $light;
                 background: $white;
                 border-radius: 10px;
                 padding: 20px;
@@ -88,7 +88,7 @@
                     @media (min-width: 992px) {
                         width: 60px;
                         height: 60px;
-                        border: 3px solid #c5247f;
+                        border: 3px solid $info;
                     }
                     
                     border-radius: 50em;
@@ -98,7 +98,7 @@
                     align-items: center;                    
 
                     .pd-icon {
-                        fill: #c5247f;
+                        fill: $info;
                         @media screen and (max-width: 991px) {
                             height: 20px;
                             width: 20px;
@@ -116,7 +116,7 @@
                 h3 {
                     font-size: 1.4rem;
                     font-weight: 700;
-                    color: #c5247f;
+                    color: $info;
                 }
 
                 p {
@@ -125,17 +125,6 @@
                 footer {
                     margin-top: auto;
                 }
-
-                // replaced with pd-link-light
-                // a {
-                //     text-decoration: none;
-                //     font-weight: 700;
-                //     color: #c5247f;
-                //      &:before {
-                //         content: ">";
-                //         margin-right: 4px;
-                //      }
-                // }
             }
         }
 
@@ -194,7 +183,7 @@
                 cursor: pointer;
 
                 .pd-icon {
-                    fill: white;
+                    fill: $white;
                     width: 90px;
                     height: 90px;
                 }
@@ -203,62 +192,28 @@
 
         }
     }
-
-    // .pd-btn {
-    //     border: 2px solid #c5247f;
-    //     background: transparent;
-    //     transition: background 0.3s;
-    //     border-radius: 50em;
-    //     padding: 16px 30px;
-    //     margin-right: 20px;
-    //     margin-bottom: 30px;
-    //     text-decoration: none;
-    //     color: #c5247f;
-    //     display: inline-block;
-    //     font-weight: 700;
-    //     min-width: $pd-btn-min-width;
-    //     text-align: center;
-
-    //     .pd-icon {
-    //         width: 40px;
-    //         height: 40px;
-    //         margin-right: 6px;
-    //         fill: #c5247f;
-
-            
-    //     }
-
-    //     &:hover {
-    //         background: #c5247f;
-    //         color: $white;
-
-    //         .pd-icon {
-    //             fill: $white;
-    //         }
-    //     }
-    // }
 }
 // end pd-grid-3
 
 
 .pd-grid-3.pd-is-dark {
     background: linear-gradient(rgba(42, 42, 42, 1) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgba(42, 42, 42, 1) 100%);
-    color: white;
+    color: $white;
 
     .pd-intro-heading-sm {
-        color: white;
+        color: $white;
     }
 
     .pd-headline {
-        color: white;
+        color: $white;
     }
 
     .pd-subHeadline {
-        color: white;
+        color: $white;
     }
 
     .pd-icon {
-        fill: white;
+        fill: $white;
     }
 
     .pd-grid-3-outer {
@@ -271,26 +226,26 @@
                 
                 .pd-icon-outer {
                     @media (min-width: 992px) {
-                        border: 3px solid white!important;
+                        border: 3px solid $white!important;
                     }
                                     
                     .pd-icon {
-                        fill: white!important;
+                        fill: $white!important;
                     }
                     
                 }
 
                 h3 {
-                    color: white;
+                    color: $white;
                 }
 
             }
 
             .pd-link-light {
-                color: white!important;
+                color: $white!important;
 
                 &:before {
-                    color: white!important;
+                    color: $white!important;
                 }
             }
         }
@@ -306,47 +261,13 @@
             a {
 
                 .pd-icon {
-                    fill: white;
+                    fill: $white;
                 }
             }
         
 
         }
     }
-
-    // .pd-btn {
-    //     border: 2px solid #c5247f;
-    //     background: transparent;
-    //     transition: background 0.3s;
-    //     border-radius: 50em;
-    //     padding: 16px 30px;
-    //     margin-right: 20px;
-    //     margin-bottom: 30px;
-    //     text-decoration: none;
-    //     color: #c5247f;
-    //     display: inline-block;
-    //     font-weight: 700;
-    //     min-width: $pd-btn-min-width;
-    //     text-align: center;
-
-    //     .pd-icon {
-    //         width: 40px;
-    //         height: 40px;
-    //         margin-right: 6px;
-    //         fill: #c5247f;
-
-            
-    //     }
-
-    //     &:hover {
-    //         background: #c5247f;
-    //         color: $white;
-
-    //         .pd-icon {
-    //             fill: $white;
-    //         }
-    //     }
-    // }
 }
 // end pd-grid-3
 

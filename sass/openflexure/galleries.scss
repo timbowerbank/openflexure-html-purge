@@ -68,7 +68,7 @@
         .pd-gallery-1-btn {
             position: absolute;
             display: inline-block;
-            border: 2px solid white;
+            border: 2px solid $white;
             width: 60px;
             height: 60px;
             display: flex;
@@ -83,7 +83,7 @@
             .pd-icon {
                 width: 30px;
                 height: 30px;
-                fill: white;
+                fill: $white;
             }
         }
     }
@@ -140,39 +140,6 @@
         right: 0;
     }
 
-    // .pd-btn {
-    //     border: 2px solid #c5247f;
-    //     background: transparent;
-    //     transition: background 0.3s;
-    //     border-radius: 50em;
-    //     padding: 16px 30px;
-    //     margin-right: 20px;
-    //     margin-bottom: 30px;
-    //     text-decoration: none;
-    //     color: white;
-    //     display: inline-block;
-    //     font-weight: 700;
-    //     min-width: $pd-btn-min-width;
-    //     text-align: center;
-
-    //     .pd-icon {
-    //         width: 40px;
-    //         height: 40px;
-    //         margin-right: 6px;
-    //         fill: white;
-
-            
-    //     }
-
-    //     &:hover {
-    //         background: #c5247f;
-    //         color: $white;
-
-    //         .pd-icon {
-    //             fill: $white;
-    //         }
-    //     }
-    // }
 }
 
 .pd-gallery-1.pd-is-light {
@@ -181,7 +148,7 @@
     color: $dark;
 
     .pd-intro-heading-sm {
-        color: $dark;
+        color: $info;
     }
 
     .pd-headline {
