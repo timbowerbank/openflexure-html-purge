@@ -11830,6 +11830,54 @@ a:focus-visible {
   height: 90px;
 }
 
+.pd-grid-3.pd-is-dark {
+  background: linear-gradient(rgb(42, 42, 42) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgb(42, 42, 42) 100%);
+  color: white;
+}
+.pd-grid-3.pd-is-dark .pd-intro-heading-sm {
+  color: white;
+}
+.pd-grid-3.pd-is-dark .pd-headline {
+  color: white;
+}
+.pd-grid-3.pd-is-dark .pd-subHeadline {
+  color: white;
+}
+.pd-grid-3.pd-is-dark .pd-icon {
+  fill: white;
+}
+.pd-grid-3.pd-is-dark .pd-grid-3-outer .pd-grid-card-sm .pd-grid-card-sm-outer {
+  border: 1px solid #E7E7E7 !important;
+  background: #2A2A2A;
+  box-shadow: 6px 7px 14px rgba(0, 0, 0, 0.6);
+}
+@media (min-width: 992px) {
+  .pd-grid-3.pd-is-dark .pd-grid-3-outer .pd-grid-card-sm .pd-grid-card-sm-outer .pd-icon-outer {
+    border: 3px solid white !important;
+  }
+}
+.pd-grid-3.pd-is-dark .pd-grid-3-outer .pd-grid-card-sm .pd-grid-card-sm-outer .pd-icon-outer .pd-icon {
+  fill: white !important;
+}
+.pd-grid-3.pd-is-dark .pd-grid-3-outer .pd-grid-card-sm .pd-grid-card-sm-outer h3, .pd-grid-3.pd-is-dark .pd-grid-3-outer .pd-grid-card-sm .pd-grid-card-sm-outer .h3 {
+  color: white;
+}
+.pd-grid-3.pd-is-dark .pd-grid-3-outer .pd-grid-card-sm .pd-link-light {
+  color: white !important;
+}
+.pd-grid-3.pd-is-dark .pd-grid-3-outer .pd-grid-card-sm .pd-link-light:before {
+  color: white !important;
+}
+.pd-grid-3.pd-is-dark .pd-grid-3-outer .pd-grid-card-lg {
+  box-shadow: 6px 7px 14px rgba(0, 0, 0, 0.6);
+}
+.pd-grid-3.pd-is-dark .pd-grid-3-outer .pd-grid-card-lg .pd-grid-3-card-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.15) 10%, rgba(0, 0, 0, 0.15) 90%, rgba(0, 0, 0, 0.3) 100%) !important;
+}
+.pd-grid-3.pd-is-dark .pd-grid-3-outer .pd-grid-card-lg a .pd-icon {
+  fill: white;
+}
+
 .pd-grid-5 .pd-grid-5-header-card {
   border: 1px solid rgb(205.5, 205.5, 205.5);
   border-radius: 10px;

@@ -240,6 +240,117 @@
 }
 // end pd-grid-3
 
+
+.pd-grid-3.pd-is-dark {
+    background: linear-gradient(rgba(42, 42, 42, 1) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgba(42, 42, 42, 1) 100%);
+    color: white;
+
+    .pd-intro-heading-sm {
+        color: white;
+    }
+
+    .pd-headline {
+        color: white;
+    }
+
+    .pd-subHeadline {
+        color: white;
+    }
+
+    .pd-icon {
+        fill: white;
+    }
+
+    .pd-grid-3-outer {
+        .pd-grid-card-sm {
+
+            .pd-grid-card-sm-outer {
+                border: 1px solid $light!important;
+                background: $dark;
+                box-shadow: 6px 7px 14px rgba(0, 0, 0, 0.6);
+                
+                .pd-icon-outer {
+                    @media (min-width: 992px) {
+                        border: 3px solid white!important;
+                    }
+                                    
+                    .pd-icon {
+                        fill: white!important;
+                    }
+                    
+                }
+
+                h3 {
+                    color: white;
+                }
+
+            }
+
+            .pd-link-light {
+                color: white!important;
+
+                &:before {
+                    color: white!important;
+                }
+            }
+        }
+
+        .pd-grid-card-lg {
+            box-shadow: 6px 7px 14px rgba(0, 0, 0, 0.6);
+
+            .pd-grid-3-card-overlay {
+                background: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.15) 10%, rgba(0, 0, 0, 0.15) 90%, rgba(0, 0, 0, 0.3) 100%)!important;
+
+            }
+
+            a {
+
+                .pd-icon {
+                    fill: white;
+                }
+            }
+        
+
+        }
+    }
+
+    // .pd-btn {
+    //     border: 2px solid #c5247f;
+    //     background: transparent;
+    //     transition: background 0.3s;
+    //     border-radius: 50em;
+    //     padding: 16px 30px;
+    //     margin-right: 20px;
+    //     margin-bottom: 30px;
+    //     text-decoration: none;
+    //     color: #c5247f;
+    //     display: inline-block;
+    //     font-weight: 700;
+    //     min-width: $pd-btn-min-width;
+    //     text-align: center;
+
+    //     .pd-icon {
+    //         width: 40px;
+    //         height: 40px;
+    //         margin-right: 6px;
+    //         fill: #c5247f;
+
+            
+    //     }
+
+    //     &:hover {
+    //         background: #c5247f;
+    //         color: $white;
+
+    //         .pd-icon {
+    //             fill: $white;
+    //         }
+    //     }
+    // }
+}
+// end pd-grid-3
+
+
 // start pd-grid-5
 .pd-grid-5 {
 
