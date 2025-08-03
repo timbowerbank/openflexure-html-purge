@@ -174,3 +174,40 @@
     //     }
     // }
 }
+
+.pd-gallery-1.pd-is-light {
+
+    background: none;
+    color: $dark;
+
+    .pd-intro-heading-sm {
+        color: $dark;
+    }
+
+    .pd-headline {
+        color: $dark;
+    }
+
+    .pd-subHeadline {
+        color: $dark;
+    }
+
+    .pd-icon {
+        fill: $info;
+    }
+
+    .glide__bullets {
+
+        .glide__bullet {
+
+            border: 2px solid darken($info, 10%);
+            background: $white;
+
+            &:focus {
+                outline: 2px dotted $info;
+                outline-offset: 2px;
+            }
+        }
+
+    }
+}

@@ -12198,6 +12198,31 @@ a:focus-visible {
   right: 0;
 }
 
+.pd-gallery-1.pd-is-light {
+  background: none;
+  color: #2A2A2A;
+}
+.pd-gallery-1.pd-is-light .pd-intro-heading-sm {
+  color: #2A2A2A;
+}
+.pd-gallery-1.pd-is-light .pd-headline {
+  color: #2A2A2A;
+}
+.pd-gallery-1.pd-is-light .pd-subHeadline {
+  color: #2A2A2A;
+}
+.pd-gallery-1.pd-is-light .pd-icon {
+  fill: #C5247F;
+}
+.pd-gallery-1.pd-is-light .glide__bullets .glide__bullet {
+  border: 2px solid rgb(153.8798283262, 28.1201716738, 99.2017167382);
+  background: #fff;
+}
+.pd-gallery-1.pd-is-light .glide__bullets .glide__bullet:focus {
+  outline: 2px dotted #C5247F;
+  outline-offset: 2px;
+}
+
 .pd-section-19 .pd-intro-heading-sm {
   font-size: 0.9rem;
   font-weight: 700;
