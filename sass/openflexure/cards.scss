@@ -476,6 +476,43 @@
     // }
 }
 
+.pd-cards-18.pd-is-light {
+    background: $white;
+    color: $dark;
+
+    .pd-intro-heading-sm {
+        color: $info;
+    }
+
+    .pd-headline {
+        color: $dark;
+    }
+
+    .pd-subHeadline {
+        color: $dark;
+    }
+
+    .pd-icon {
+        fill: $info;
+    }
+
+    .pd-cards-18-card-lg-outer {
+        background: $white;
+        border: 1px solid $light;
+        box-shadow: 6px 7px 14px rgba(0, 0, 0, 0.1);
+
+        .pd-cards-18-card-content-outer {
+            p {
+                color: $info;
+            }
+
+            h3 {
+                color: $dark;
+            }
+        }
+    }
+}
+
 // end pd-cards-18
 // start pd-cards-19
 .pd-cards-19 {

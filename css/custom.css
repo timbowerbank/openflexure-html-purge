@@ -11185,6 +11185,34 @@ a:focus-visible {
   margin-top: auto;
 }
 
+.pd-cards-18.pd-is-light {
+  background: #fff;
+  color: #2A2A2A;
+}
+.pd-cards-18.pd-is-light .pd-intro-heading-sm {
+  color: #C5247F;
+}
+.pd-cards-18.pd-is-light .pd-headline {
+  color: #2A2A2A;
+}
+.pd-cards-18.pd-is-light .pd-subHeadline {
+  color: #2A2A2A;
+}
+.pd-cards-18.pd-is-light .pd-icon {
+  fill: #C5247F;
+}
+.pd-cards-18.pd-is-light .pd-cards-18-card-lg-outer {
+  background: #fff;
+  border: 1px solid #E7E7E7;
+  box-shadow: 6px 7px 14px rgba(0, 0, 0, 0.1);
+}
+.pd-cards-18.pd-is-light .pd-cards-18-card-lg-outer .pd-cards-18-card-content-outer p {
+  color: #C5247F;
+}
+.pd-cards-18.pd-is-light .pd-cards-18-card-lg-outer .pd-cards-18-card-content-outer h3, .pd-cards-18.pd-is-light .pd-cards-18-card-lg-outer .pd-cards-18-card-content-outer .h3 {
+  color: #2A2A2A;
+}
+
 .pd-cards-19 {
   position: relative;
 }
