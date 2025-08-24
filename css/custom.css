@@ -12549,6 +12549,38 @@ a:focus-visible {
   left: 0;
 }
 
+.pd-section-20.pd-is-light {
+  background: #fff;
+  color: #2A2A2A;
+}
+.pd-section-20.pd-is-light .pd-intro-heading-sm {
+  color: #C5247F;
+}
+.pd-section-20.pd-is-light .pd-icon {
+  fill: #C5247F;
+}
+.pd-section-20.pd-is-light .pd-headline {
+  color: #2A2A2A;
+}
+.pd-section-20.pd-is-light .pd-subHeadline {
+  color: #2A2A2A;
+}
+.pd-section-20.pd-is-light .pd-section-20-results-txt {
+  color: #C5247F;
+}
+.pd-section-20.pd-is-light .pd-section-20-grid-outer .pd-section-20-grid:before {
+  background: #C5247F;
+}
+.pd-section-20.pd-is-light .pd-section-20-grid-outer .pd-section-20-grid .pd-section-20-grid-card .pd-section-20-card-headline p {
+  color: #C5247F;
+}
+.pd-section-20.pd-is-light .pd-section-20-grid-outer .pd-section-20-grid .pd-section-20-grid-card .pd-section-20-card-subHeadline p {
+  color: #2A2A2A;
+}
+.pd-section-20.pd-is-light .pd-section-20-list-outer ul {
+  color: #2A2A2A;
+}
+
 .pd-section-21 .pd-intro-heading-sm {
   font-size: 0.9rem;
   font-weight: 700;

@@ -428,6 +428,59 @@
     }
 }
 
+.pd-section-20.pd-is-light {
+    background: $white;
+    color: $dark;
+
+    .pd-intro-heading-sm {
+        color: $info;
+    }
+
+    .pd-icon {
+        fill: $info;
+    }
+
+    .pd-headline {
+        color: $dark;
+    }
+
+    .pd-subHeadline {
+        color: $dark;
+    }
+
+    .pd-section-20-results-txt {
+        color: $info;
+    }
+
+    .pd-section-20-grid-outer {
+        .pd-section-20-grid {
+            &:before {
+                background: $info;
+            }
+
+            .pd-section-20-grid-card {
+                .pd-section-20-card-headline {
+                    p {
+                        color: $info;
+                    }
+                }
+
+                .pd-section-20-card-subHeadline {
+                    p {
+                        color: $dark;
+                    }
+                }
+            }
+        }
+    }
+
+    .pd-section-20-list-outer {
+        ul {
+            color: $dark;
+        }
+    }
+}
+
 // end pd-section-20
 
 
