@@ -163,3 +163,47 @@
     //     }
     // }
 }
+
+.pd-logo-strip-2.pd-is-dark {
+    background: linear-gradient(rgba(42, 42, 42, 1) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgba(42, 42, 42, 1) 100%);
+    color: $white;
+
+    .pd-intro-heading-sm {
+        color: $white;
+    }
+
+    .pd-headline {
+        color: $white;
+    }
+
+    .pd-subHeadline {
+        color: $white;
+    }
+
+    .pd-icon {
+        fill: $white;
+    }
+
+    .pd-logo-strip-2-grid-outer {
+        .pd-logo-strip-2-card-lg {
+            background: $dark;
+            border: 1px solid $gray-600;
+            color: $white;
+
+            .pd-logo-strip-2-card-lg-col-left {
+                h3 {
+                    color: $white;
+                }
+
+                p {
+                    color: $white;
+                }
+            }
+        }
+
+        // .pd-logo-strip-2-card-sm {
+        //     background: $dark;
+        //     border: 1px solid $gray-600;
+        // }
+    }
+}

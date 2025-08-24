@@ -12904,6 +12904,34 @@ a:focus-visible {
 .pd-logo-strip-2 .pd-logo-strip-2-grid-outer .pd-logo-strip-2-card-sm img {
   width: 120px;
 }
+.pd-logo-strip-2.pd-is-dark {
+  background: linear-gradient(rgb(42, 42, 42) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgb(42, 42, 42) 100%);
+  color: #fff;
+}
+.pd-logo-strip-2.pd-is-dark .pd-intro-heading-sm {
+  color: #fff;
+}
+.pd-logo-strip-2.pd-is-dark .pd-headline {
+  color: #fff;
+}
+.pd-logo-strip-2.pd-is-dark .pd-subHeadline {
+  color: #fff;
+}
+.pd-logo-strip-2.pd-is-dark .pd-icon {
+  fill: #fff;
+}
+.pd-logo-strip-2.pd-is-dark .pd-logo-strip-2-grid-outer .pd-logo-strip-2-card-lg {
+  background: #2A2A2A;
+  border: 1px solid #6c757d;
+  color: #fff;
+}
+.pd-logo-strip-2.pd-is-dark .pd-logo-strip-2-grid-outer .pd-logo-strip-2-card-lg .pd-logo-strip-2-card-lg-col-left h3, .pd-logo-strip-2.pd-is-dark .pd-logo-strip-2-grid-outer .pd-logo-strip-2-card-lg .pd-logo-strip-2-card-lg-col-left .h3 {
+  color: #fff;
+}
+.pd-logo-strip-2.pd-is-dark .pd-logo-strip-2-grid-outer .pd-logo-strip-2-card-lg .pd-logo-strip-2-card-lg-col-left p {
+  color: #fff;
+}
+
 .pd-slider-1 .pd-intro-heading-sm {
   font-size: 0.9rem;
   font-weight: 700;
