@@ -10942,6 +10942,37 @@ a:focus-visible {
   margin-top: auto;
 }
 
+.pd-cards-14.pd-is-dark {
+  background: linear-gradient(rgb(42, 42, 42) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgb(42, 42, 42) 100%);
+  color: #fff;
+}
+.pd-cards-14.pd-is-dark .pd-intro-heading-sm {
+  color: #fff;
+}
+.pd-cards-14.pd-is-dark .pd-headline {
+  color: #fff;
+}
+.pd-cards-14.pd-is-dark .pd-subHeadline {
+  color: #fff;
+}
+.pd-cards-14.pd-is-dark .pd-icon {
+  fill: #fff;
+}
+.pd-cards-14.pd-is-dark .pd-cards-14-card-outer header h3, .pd-cards-14.pd-is-dark .pd-cards-14-card-outer header .h3 {
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .pd-cards-14.pd-is-dark .pd-cards-14-card-outer header .pd-icon-outer {
+    border: 3px solid #fff;
+  }
+}
+.pd-cards-14.pd-is-dark .pd-cards-14-card-outer header .pd-icon-outer .pd-icon {
+  fill: #fff;
+}
+.pd-cards-14.pd-is-dark .pd-cards-14-card-outer .pd-cards-14-card-body p {
+  color: #fff;
+}
+
 .pd-cards-17 {
   position: relative;
 }
