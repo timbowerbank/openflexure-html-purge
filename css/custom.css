@@ -11402,6 +11402,42 @@ a:focus-visible {
   margin-top: auto;
 }
 
+.pd-cards-19.pd-is-dark {
+  background: linear-gradient(rgb(42, 42, 42) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgb(42, 42, 42) 100%);
+  color: #fff;
+}
+.pd-cards-19.pd-is-dark .pd-intro-heading-sm {
+  color: #fff;
+}
+.pd-cards-19.pd-is-dark .pd-headline {
+  color: #fff;
+}
+.pd-cards-19.pd-is-dark .pd-subHeadline {
+  color: #fff;
+}
+.pd-cards-19.pd-is-dark .pd-icon {
+  fill: #fff;
+}
+.pd-cards-19.pd-is-dark .pd-cards-19-grid-outer .pd-grid-card-sm .pd-grid-card-sm-outer {
+  background: #2A2A2A;
+  border: 1px solid #6c757d;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .pd-cards-19.pd-is-dark .pd-cards-19-grid-outer .pd-grid-card-sm .pd-grid-card-sm-outer .pd-icon-outer {
+    border: 3px solid #fff;
+  }
+}
+.pd-cards-19.pd-is-dark .pd-cards-19-grid-outer .pd-grid-card-sm .pd-grid-card-sm-outer .pd-icon-outer .pd-icon {
+  fill: #fff;
+}
+.pd-cards-19.pd-is-dark .pd-cards-19-grid-outer .pd-grid-card-sm .pd-grid-card-sm-outer h3, .pd-cards-19.pd-is-dark .pd-cards-19-grid-outer .pd-grid-card-sm .pd-grid-card-sm-outer .h3 {
+  color: #fff;
+}
+.pd-cards-19.pd-is-dark .pd-cards-19-grid-outer .pd-grid-card-sm .pd-grid-card-sm-outer p {
+  color: #fff;
+}
+
 .pd-cards-20 .pd-headline {
   font-size: 2.4rem;
   font-weight: 700;
@@ -11728,6 +11764,40 @@ a:focus-visible {
     width: 28px;
     height: auto;
   }
+}
+
+.pd-cards-22.pd-is-dark {
+  background: linear-gradient(rgb(42, 42, 42) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgb(42, 42, 42) 100%);
+  color: #fff;
+}
+.pd-cards-22.pd-is-dark .pd-intro-heading-sm {
+  color: #fff;
+}
+.pd-cards-22.pd-is-dark .pd-headline {
+  color: #fff;
+}
+.pd-cards-22.pd-is-dark .pd-subHeadline {
+  color: #fff;
+}
+.pd-cards-22.pd-is-dark .pd-icon {
+  fill: #fff;
+}
+.pd-cards-22.pd-is-dark .pd-cards-22-grid-outer .pd-cards-22-card-outer {
+  border-bottom: 2px solid #fff;
+}
+.pd-cards-22.pd-is-dark .pd-cards-22-grid-outer .pd-cards-22-card-outer .pd-cards-22-card-body {
+  color: #fff;
+}
+.pd-cards-22.pd-is-dark .pd-cards-22-grid-outer .pd-cards-22-card-outer .pd-cards-22-card-body h2, .pd-cards-22.pd-is-dark .pd-cards-22-grid-outer .pd-cards-22-card-outer .pd-cards-22-card-body .h2,
+.pd-cards-22.pd-is-dark .pd-cards-22-grid-outer .pd-cards-22-card-outer .pd-cards-22-card-body h3,
+.pd-cards-22.pd-is-dark .pd-cards-22-grid-outer .pd-cards-22-card-outer .pd-cards-22-card-body .h3 {
+  color: #fff;
+}
+.pd-cards-22.pd-is-dark .pd-cards-22-grid-outer .pd-cards-22-card-outer .pd-cards-22-card-body p {
+  color: #fff;
+}
+.pd-cards-22.pd-is-dark .pd-cards-22-grid-outer .pd-cards-22-card-outer footer a.pd-text-link {
+  color: #fff;
 }
 
 .pd-grid-3 .pd-intro-heading-sm {

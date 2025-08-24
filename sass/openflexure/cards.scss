@@ -759,6 +759,55 @@
     }
 }
 
+.pd-cards-19.pd-is-dark {
+    background: linear-gradient(rgba(42, 42, 42, 1) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgba(42, 42, 42, 1) 100%);
+    color: $white;
+
+    .pd-intro-heading-sm {
+        color: $white;
+    }
+
+    .pd-headline {
+        color: $white;
+    }
+
+    .pd-subHeadline {
+        color: $white;
+    }
+
+    .pd-icon {
+        fill: $white;
+    }
+
+    .pd-cards-19-grid-outer {
+        .pd-grid-card-sm {
+            .pd-grid-card-sm-outer {
+                background: $dark;
+                border: 1px solid $gray-600;
+                color: $white;
+
+                .pd-icon-outer {
+                    @media (min-width: 992px) {
+                        border: 3px solid $white;
+                    }
+
+                    .pd-icon {
+                        fill: $white;
+                    }
+                }
+
+                h3 {
+                    color: $white;
+                }
+
+                p {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
 // end pd-cards-19
 // start pd-cards-20
 .pd-cards-20 {
@@ -1133,6 +1182,52 @@
                             height: auto;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+.pd-cards-22.pd-is-dark {
+    background: linear-gradient(rgba(42, 42, 42, 1) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgba(42, 42, 42, 1) 100%);
+    color: $white;
+
+    .pd-intro-heading-sm {
+        color: $white;
+    }
+
+    .pd-headline {
+        color: $white;
+    }
+
+    .pd-subHeadline {
+        color: $white;
+    }
+
+    .pd-icon {
+        fill: $white;
+    }
+
+    .pd-cards-22-grid-outer {
+        .pd-cards-22-card-outer {
+            border-bottom: 2px solid $white;
+
+            .pd-cards-22-card-body {
+                color: $white;
+
+                h2,
+                h3 {
+                    color: $white;
+                }
+
+                p {
+                    color: $white;
+                }
+            }
+
+            footer {
+                a.pd-text-link {
+                    color: $white;
                 }
             }
         }
