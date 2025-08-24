@@ -11110,6 +11110,38 @@ a:focus-visible {
   height: auto;
 }
 
+.pd-cards-17.pd-is-light .pd-intro-heading-sm {
+  color: #C5247F;
+}
+.pd-cards-17.pd-is-light .pd-headline {
+  color: #2A2A2A;
+}
+.pd-cards-17.pd-is-light .pd-subHeadline {
+  color: #2A2A2A;
+}
+.pd-cards-17.pd-is-light .pd-icon {
+  fill: #C5247F;
+}
+.pd-cards-17.pd-is-light .pd-cards-17-background-img-outer figure figcaption {
+  color: #2A2A2A;
+}
+.pd-cards-17.pd-is-light .pd-cards-17-img-overlay {
+  background: linear-gradient(rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.4) 60%, rgba(255, 255, 255, 0.6) 100%);
+}
+.pd-cards-17.pd-is-light .pd-cards-17-card-outer {
+  background: #fff;
+  border: 1px solid #E7E7E7;
+}
+.pd-cards-17.pd-is-light .pd-cards-17-card-outer .pd-cards-17-card-body-outer {
+  color: #2A2A2A;
+}
+.pd-cards-17.pd-is-light .pd-cards-17-card-outer .pd-cards-17-card-body-outer header h3, .pd-cards-17.pd-is-light .pd-cards-17-card-outer .pd-cards-17-card-body-outer header .h3 {
+  color: #2A2A2A;
+}
+.pd-cards-17.pd-is-light .pd-cards-17-card-outer .pd-cards-17-card-body-outer .pd-cards-17-card-text-outer p {
+  color: #2A2A2A;
+}
+
 .pd-cards-18 {
   background: linear-gradient(rgb(42, 42, 42) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgb(42, 42, 42) 100%);
   color: white;

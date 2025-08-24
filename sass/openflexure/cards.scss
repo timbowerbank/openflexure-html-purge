@@ -341,6 +341,62 @@
     }
 }
 
+.pd-cards-17.pd-is-light {
+    .pd-intro-heading-sm {
+        color: $info;
+    }
+
+    .pd-headline {
+        color: $dark;
+    }
+
+    .pd-subHeadline {
+        color: $dark;
+    }
+
+    .pd-icon {
+        fill: $info;
+    }
+
+    .pd-cards-17-background-img-outer {
+        figure {
+            figcaption {
+                color: $dark;
+            }
+        }
+    }
+
+    .pd-cards-17-img-overlay {
+        background: linear-gradient(rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.4) 60%, rgba(255, 255, 255, 0.6) 100%);
+    }
+
+    .pd-cards-17-card-outer {
+        background: $white;
+        border: 1px solid $light;
+
+        .pd-cards-17-card-body-outer {
+            color: $dark;
+
+            header {
+                h3 {
+                    color: $dark;
+                }
+            }
+
+            .pd-cards-17-card-text-outer {
+                p {
+                    color: $dark;
+                }
+            }
+        }
+    }
+
+    // .pd-cards-17-grid {
+    //     background: rgba(42, 42, 42, 0.8);
+    //     color: $white;
+    // }
+}
+
 // end pd-cards-17
 // start pd-cards-18
 .pd-cards-18 {
