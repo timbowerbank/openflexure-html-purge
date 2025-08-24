@@ -255,6 +255,80 @@
     }
 }
 
+.pd-section-19.pd-is-dark {
+    background: linear-gradient(rgba(42, 42, 42, 1) 0%, rgba(42, 42, 42, 0.95) 40%, rgba(42, 42, 42, 0.95) 60%, rgba(42, 42, 42, 1) 100%);
+    color: $white;
+
+    .pd-intro-heading-sm {
+        color: $white;
+    }
+
+    .pd-headline {
+        color: $white;
+    }
+
+    .pd-subHeadline {
+        color: $white;
+    }
+
+    .pd-icon {
+        fill: $white;
+    }
+
+    .pd-section-19-grid-outer {
+        .pd-section-19-grid {
+            &::before,
+            &::after {
+                background-color: $white;
+            }
+        }
+    }
+
+    .pd-grid-card-sm {
+        .pd-grid-card-sm-outer {
+            background: $dark;
+            border: 1px solid $gray-600;
+            color: $white;
+
+            .pd-icon-outer {
+                @media (min-width: 992px) {
+                    border: 3px solid $white;
+                }
+
+                .pd-icon {
+                    fill: $white;
+                }
+            }
+
+            h3 {
+                color: $white;
+            }
+
+            p {
+                color: $white;
+            }
+        }
+    }
+
+    .pd-btn {
+        border: 2px solid $white;
+        color: $white;
+
+        .pd-icon {
+            fill: $white;
+        }
+
+        &:hover {
+            background: $white;
+            color: $dark;
+
+            .pd-icon {
+                fill: $dark;
+            }
+        }
+    }
+}
+
 // end pd-section-19
 
 
